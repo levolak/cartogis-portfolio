@@ -1,2 +1,1 @@
-# cartogis portfolio
-![Plot](MyMap_happypoints/happy_places_map.png)
+this is the portfolio of Lauri Levomäki
