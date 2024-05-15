@@ -1,1 +1,0 @@
-this is the portfolio of Lauri Levomäki
