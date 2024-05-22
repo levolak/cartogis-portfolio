@@ -27,17 +27,22 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 
 ```html
-<iframe src="map_2015.html" width="800" height="600"></iframe>
-<iframe src="map_2020.html" width="800" height="600"></iframe>
-<iframe src="map_2023.html" width="800" height="600"></iframe>
-<iframe src="map_with_slider.html" width="800" height="600"></iframe>
-
 <div style="display: inline-block;">
     <iframe src="map_2015.html" width="800" height="600" style="margin-right: 10px;"></iframe>
 </div>
 <div style="display: inline-block;">
     <iframe src="map_2020.html" width="800" height="600"></iframe>
 </div>
+
+<div style="display: inline-block;">
+    <iframe src="map_2020.html" width="800" height="600" style="margin-right: 10px;"></iframe>
+</div>
+<div style="display: inline-block;">
+    <iframe src="map_2023.html" width="800" height="600"></iframe>
+</div>
+
+
+<iframe src="slider_and_markers.html" width="800" height="600"></iframe>
 
 
 
