@@ -1,6 +1,18 @@
 # This is the cartogis portfolio
 ##  test test test
 ## let´s test to plot map here:
+
+
+<div style="white-space: nowrap;">
+    <iframe src="map_2015.html" width="800" height="600" style="display: inline-block; margin-right: 10px;"></iframe>
+    <iframe src="map_2020.html" width="800" height="600" style="display: inline-block; margin-right: 10px;"></iframe>
+    <iframe src="map_2023.html" width="800" height="600" style="display: inline-block; margin-right: 10px;"></iframe>
+    <iframe src="all_markers_blue_red.html" width="800" height="600" style="display: inline-block; margin-right: 10px;"></iframe>
+    <iframe src="slider_and_markers.html" width="800" height="600" style="display: inline-block; margin-right: 10px;"></iframe>
+    <iframe src="traffic_map_with_slider.html" width="800" height="600" style="display: inline-block; margin-right: 10px;"></iframe>
+    <iframe src="combined_map_with_slider.html" width="1000" height="800" style="display: inline-block; margin-right: 10px;"></iframe>
+</div>
+
 ![Plot](population_density_helsinki.png)
 
 # ANOTHER ONE
