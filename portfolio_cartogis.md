@@ -65,6 +65,32 @@ All values in the same map. Press to see the NO2-value.
 
 CONCLUSION
 
+<div style="display: inline-block;">
+    <iframe src="map_2015.html" width="800" height="600" style="margin-right: 10px;"></iframe>
+</div>
+<div style="display: inline-block;">
+    <iframe src="map_2020.html" width="800" height="600" style="margin-right: 10px;"></iframe>
+</div>
+
+<div style="display: inline-block;">
+    <iframe src="map_2023.html" width="800" height="600" style="margin-right: 10px;"></iframe>
+</div>
+<div style="display: inline-block;">
+    <iframe src="all_markers_blue_red.html" width="800" height="600"></iframe>
+</div>
+
+<div style="display: inline-block;">
+    <iframe src="slider_and_markers.html" width="800" height="600" style="margin-right: 10px;"></iframe>
+</div>
+<div style="display: inline-block;">
+    <iframe src="traffic_map_with_slider.html" width="800" height="600"></iframe>
+</div>
+
+<div style="display: inline-block;">
+    <iframe src="combined_map_with_slider.html" width="1000" height="800"></iframe>
+</div>
+
+
 
 
 
