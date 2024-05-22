@@ -75,35 +75,3 @@
     </div>
 </body>
 </html>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cartogis Portfolio</title>
-    <style>
-        .iframe-container {
-            display: inline-block;
-            margin-right: 10px;
-            margin-bottom: 10px;
-        }
-    </style>
-</head>
-<body>
-    <h1>Cartogis Portfolio</h1>
-    <h2>Test test test</h2>
-
-    <!-- Maps -->
-    <div class="iframe-container">
-        <iframe src="map_2015.html" width="400" height="300"></iframe>
-    </div>
-    <div class="iframe-container">
-        <iframe src="map_2020.html" width="400" height="300"></iframe>
-    </div>
-
-    <!-- Additional content goes here -->
-
-</body>
-</html>
-
