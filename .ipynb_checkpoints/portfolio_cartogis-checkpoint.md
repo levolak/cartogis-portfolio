@@ -1,108 +1,73 @@
-# This is the cartogis portfolio
-##  test test test
-## let´s test to plot map here:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartogis Portfolio</title>
+    <style>
+        .iframe-container {
+            display: inline-block;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cartogis Portfolio</h1>
+    <h2>Test test test</h2>
 
-```html
-<div style="white-space: nowrap;">
-    <iframe src="map_2015.html" width="800" height="600" style="display: inline-block; margin-right: 10px;"></iframe>
-    <iframe src="map_2020.html" width="800" height="600" style="display: inline-block; margin-right: 10px;"></iframe>
-    <iframe src="map_2023.html" width="800" height="600" style="display: inline-block; margin-right: 10px;"></iframe>
-    <iframe src="all_markers_blue_red.html" width="800" height="600" style="display: inline-block; margin-right: 10px;"></iframe>
-    <iframe src="slider_and_markers.html" width="800" height="600" style="display: inline-block; margin-right: 10px;"></iframe>
-    <iframe src="traffic_map_with_slider.html" width="800" height="600" style="display: inline-block; margin-right: 10px;"></iframe>
-    <iframe src="combined_map_with_slider.html" width="1000" height="800" style="display: inline-block; margin-right: 10px;"></iframe>
-</div>
+    <!-- Maps -->
+    <div class="iframe-container">
+        <iframe src="map_2015.html" width="800" height="600"></iframe>
+    </div>
+    <div class="iframe-container">
+        <iframe src="map_2020.html" width="800" height="600"></iframe>
+    </div>
+    <div class="iframe-container">
+        <iframe src="map_2023.html" width="800" height="600"></iframe>
+    </div>
+    <div class="iframe-container">
+        <iframe src="all_markers_blue_red.html" width="800" height="600"></iframe>
+    </div>
+    <div class="iframe-container">
+        <iframe src="slider_and_markers.html" width="800" height="600"></iframe>
+    </div>
+    <div class="iframe-container">
+        <iframe src="traffic_map_with_slider.html" width="800" height="600"></iframe>
+    </div>
+    <div class="iframe-container">
+        <iframe src="combined_map_with_slider.html" width="1000" height="800"></iframe>
+    </div>
 
-![Plot](population_density_helsinki.png)
+    <!-- Images -->
+    <h2>Another One</h2>
+    <img src="population_density_helsinki.png" alt="Population Density Helsinki">
 
-# ANOTHER ONE
-![Plot](MyMap_happypoints/happy_places_map.png)
+    <h2>Another One</h2>
+    <img src="MyMap_happypoints/happy_places_map.png" alt="Happy Places Map">
 
-![Plot](population_density_helsinki.png)
-
-
-# HEADER
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release  Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-
-
-# ANOTHER ONE
-![Plot](gridmap_no2_2015.png)
-
-![Plot](gridmap_no2_2020.png)
-
-![Plot](gridmap_no2_2023.png)
-
-![Plot](meanvalues_bar_linechart.png)
-
-![Plot](traffic_amounts_bar_linechart.png)
-
-# HEADER
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release  Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-```html
-<div style="display: inline-block;">
-    <iframe src="map_2015.html" width="800" height="600" style="margin-right: 10px;"></iframe>
-</div>
-<div style="display: inline-block;">
-    <iframe src="map_2020.html" width="800" height="600"></iframe>
-</div>
-
-<div style="display: inline-block;">
-    <iframe src="map_2020.html" width="800" height="600" style="margin-right: 10px;"></iframe>
-</div>
-<div style="display: inline-block;">
-    <iframe src="map_2023.html" width="800" height="600"></iframe>
-</div>
-
-All values in the same map. Press to see the NO2-value.
-
-<iframe src="all_markers_blue_red.html" width="800" height="600"></iframe>
-
-# Press play to visualize air quality year-by-year.
-
-<iframe src="slider_and_markers.html" width="800" height="600"></iframe>
-<iframe src="traffic_map_with_slider.html" width="800" height="600"></iframe>
-
-
-
-<div style="display: inline-block;">
-    <iframe src="slider_and_markers.html" width="800" height="600" style="margin-right: 10px;"></iframe>
-</div>
-<div style="display: inline-block;">
-    <iframe src="traffic_map_with_slider.html" width="800" height="600"></iframe>
-</div>
-
-<iframe src="combined_map_with_slider.html" width="1000" height="800"></iframe>
-
-CONCLUSION
-
-<div style="display: inline-block;">
-    <iframe src="map_2015.html" width="800" height="600" style="margin-right: 10px;"></iframe>
-</div>
-<div style="display: inline-block;">
-    <iframe src="map_2020.html" width="800" height="600" style="margin-right: 10px;"></iframe>
-</div>
-
-<div style="display: inline-block;">
-    <iframe src="map_2023.html" width="800" height="600" style="margin-right: 10px;"></iframe>
-</div>
-<div style="display: inline-block;">
-    <iframe src="all_markers_blue_red.html" width="800" height="600"></iframe>
-</div>
-
-<div style="display: inline-block;">
-    <iframe src="slider_and_markers.html" width="800" height="600" style="margin-right: 10px;"></iframe>
-</div>
-<div style="display: inline-block;">
-    <iframe src="traffic_map_with_slider.html" width="800" height="600"></iframe>
-</div>
-
-<div style="display: inline-block;">
-    <iframe src="combined_map_with_slider.html" width="1000" height="800"></iframe>
-</div>
-
-
-
-
-
+    <!-- Conclusion -->
+    <h2>Conclusion</h2>
+    <div class="iframe-container">
+        <iframe src="map_2015.html" width="800" height="600"></iframe>
+    </div>
+    <div class="iframe-container">
+        <iframe src="map_2020.html" width="800" height="600"></iframe>
+    </div>
+    <div class="iframe-container">
+        <iframe src="map_2023.html" width="800" height="600"></iframe>
+    </div>
+    <div class="iframe-container">
+        <iframe src="all_markers_blue_red.html" width="800" height="600"></iframe>
+    </div>
+    <div class="iframe-container">
+        <iframe src="slider_and_markers.html" width="800" height="600"></iframe>
+    </div>
+    <div class="iframe-container">
+        <iframe src="traffic_map_with_slider.html" width="800" height="600"></iframe>
+    </div>
+    <div class="iframe-container">
+        <iframe src="combined_map_with_slider.html" width="1000" height="800"></iframe>
+    </div>
+</body>
+</html>
