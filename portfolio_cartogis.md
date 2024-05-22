@@ -61,7 +61,7 @@ All values in the same map. Press to see the NO2-value.
     <iframe src="traffic_map_with_slider.html" width="800" height="600"></iframe>
 </div>
 
-
+<iframe src="combined_map_with_slider.html" width="1000" height="800"></iframe>
 
 CONCLUSION
 
