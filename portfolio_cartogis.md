@@ -14,3 +14,18 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 
 
+# ANOTHER ONE
+![Plot](gridmap_no2_2015.png)
+
+![Plot](gridmap_no2_2020.png)
+
+![Plot](gridmap_no2_2023.png)
+
+![Plot](meanvalues_bar_linechart.png.png)
+
+
+![Plot](map_2015.html)
+![Plot](map_2020.html)
+![Plot](map_2023.html)
+
+
