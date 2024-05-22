@@ -21,11 +21,16 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 ![Plot](gridmap_no2_2023.png)
 
-![Plot](meanvalues_bar_linechart.png.png)
+![Plot](meanvalues_bar_linechart.png)
+
+![Plot](trendvalues_2015_2023.png)
 
 
-![Plot](map_2015.html)
-![Plot](map_2020.html)
-![Plot](map_2023.html)
+```html
+<iframe src="map_2015.html" width="800" height="600"></iframe>
+<iframe src="map_2020.html" width="800" height="600"></iframe>
+<iframe src="map_2023.html" width="800" height="600"></iframe>
+<iframe src="map_with_slider.html" width="800" height="600"></iframe>
+
 
 
