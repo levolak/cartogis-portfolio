@@ -48,8 +48,8 @@
         
         /* Adjust iframe size for interactive map */
         .iframe-container.interactive iframe {
-            width: 400px; /* Set fixed width */
-            height: 400px; /* Set fixed height */
+            width: 600px; /* Set fixed width */
+            height: 600px; /* Set fixed height */
         }
 
     </style>
@@ -126,7 +126,7 @@
     <h4>We can see how the covid-19 affected the amount of No2-values and traffic</h4>
     <img src="no2_traffic_linechart.png"  class="map-image">
     
-    <img src="combined_map_with_slider.html"  class="map-image">
+    
     
     <div class="iframe-container interactive">
             <iframe src="combined_map_with_slider.html"></iframe>
