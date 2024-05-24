@@ -37,7 +37,7 @@
             width: auto; /* Ensure the image fills its container */
             height: auto; /* Maintain aspect ratio */
             max-width: 100%; /* Set a maximum width */
-            max-height: 300px; /* Set a maximum height */
+            max-height: 400px; /* Set a maximum height */
             margin-bottom: 20px;
         }
 
@@ -102,10 +102,6 @@
     
     <img src="traffic_amounts_bar_linechart.png" alt="Happy Places Map" class="map-image">
     <img src="no2_traffic_linechart.png" alt="Happy Places Map" class="map-image">
-    <img src=".png" alt="Happy Places Map" class="map-image">
-    
-    
-    
-    
+  
 </body>    
 </html>
