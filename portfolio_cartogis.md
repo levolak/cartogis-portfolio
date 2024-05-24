@@ -18,26 +18,28 @@
             margin-bottom: 10px; /* Add bottom margin */
         }
         
-        iframe-container {
+        .iframe-container {
             display: inline-block;
             width: calc(50% - 10px); /* Adjust width for two iframes with margin */
             margin-right: 20px; /* Add margin between iframes */
-            margin-bottom: 20px; /* Add bottom margin */
             vertical-align: top; /* Align iframes at the top */
+            font-size: 16px; /* Reset font size */
         }
 
         .iframe-container iframe {
-            width: auto; /* Set iframe width to fill container */
-            height: 300px; /* Set iframe height */
+            width: 100%; /* Set iframe width to fill container */
+            height: auto; /* Maintain aspect ratio */
             border: none; /* Remove iframe border */
         }
+        
+
         
         .map-image {
             display: block;
             width: auto; /* Ensure the image fills its container */
-            height: auto; /* Maintain aspect ratio */
+            height: 300px; /* Maintain aspect ratio */
             max-width: 100%; /* Set a maximum width */
-            max-height: 400px; /* Set a maximum height */
+            max-height: 100%; /* Set a maximum height */
             margin-bottom: 20px;
         }
 
