@@ -41,8 +41,8 @@ h1, h2, h3, h4, p {
 
 .map-image {
     display: block;
-    width: auto; /* Ensure the image fills its container */
-    height: 500px; /* Set a fixed height */
+    width: 300; /* Ensure the image fills its container */
+    height: auto; /* Set a fixed height */
     max-width: 100%; /* Set a maximum width */
     margin-bottom: 20px;
 }
