@@ -28,7 +28,7 @@
 
         .iframe-container iframe {
             width: auto; /* Set iframe width to fill container */
-            height: 200px; /* Set iframe height */
+            height: 300px; /* Set iframe height */
             border: none; /* Remove iframe border */
         }
         
@@ -37,7 +37,7 @@
             width: auto; /* Ensure the image fills its container */
             height: auto; /* Maintain aspect ratio */
             max-width: 100%; /* Set a maximum width */
-            max-height: 200px; /* Set a maximum height */
+            max-height: 300px; /* Set a maximum height */
             margin-bottom: 20px;
         }
 
@@ -63,7 +63,7 @@
     
     <h3>About the mobile internet latencies in Europe:</h3>
     <!-- Map of Europe -->
-    <img src="MyMap_hexbin_map_europe.png" alt="Mobile Internet Latencies in Europe" class="map-image">
+    <img src="hexbin_map_europe.png" alt="Mobile Internet Latencies in Europe" class="map-image">
    
 
     <!-- Maps -->
@@ -80,7 +80,7 @@
     <img src="gridmap_no2_2023.png" alt="Happy Places Map" class="map-image">
     
     <img src="meanvalues_bar_linechart.png" alt="Happy Places Map" class="map-image">
-    <img src="trenfvalues_2015_2023.png" alt="Happy Places Map" class="map-image">
+    <img src="trendvalues_2015_2023.png" alt="Happy Places Map" class="map-image">
     
 
     <h2>Let's now see some interactive maps...</h2>
