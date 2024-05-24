@@ -20,8 +20,8 @@
 
         .map-image {
             display: block;
-            width: 600px; /* Set a fixed width */
-            height: 400px; /* Maintain aspect ratio */
+            width: 400px; /* Set a fixed width */
+            height: 600px; /* Maintain aspect ratio */
             max-width: 100%; /* Set a maximum width */
             margin-bottom: 20px;
         }
@@ -141,8 +141,8 @@
     
     <h4>Let´s invite an other dataset to the party, and see how is the traffic been changing in Helsinki during these years. 
 in an urban environment, traffic is the most significant cause of air pollution and thus degrades air quality the most. (lisää lähde hsy) The traffic values show yearly average amount of vehicles per hour. </h4>
-    <img src="trendvalues_2015_2023.png" class="map-image">
-    <img src="no2_traffic_linechart.png" class="map-image">
+    <img src="trendvalues_2015_2023.png" class="wide-map-image">
+    <img src="no2_traffic_linechart.png" class="wide-map-image">
     
     <h4>Traffic slider alle</h4>
     <div class="iframe-container interactive">
