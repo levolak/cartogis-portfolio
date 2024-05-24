@@ -70,7 +70,7 @@
 <body>
     <h1>This is the portfolio page of the Helsinki University Cartogis course made by Lauri Levomäki</h1>
     
-    <h3>In this page, you can see some maps made during the course, and storytelling section about air quality in Helsinki, Finland.</h3>
+    <h3>In this page, you can see some maps made during the course, and the storytelling section about air quality in Helsinki, Finland.</h3>
     
     <p>First, some maps I created as part of my coursework.</p>
 
@@ -102,13 +102,13 @@
   
 
     <!-- Maps -->
-    <h4>Change:</h4>
+    <h4>Change testi:</h4>
     <img src="gridmap_no2_2015.png" alt="NO2 Levels 2015" class="map-image">
     <img src="gridmap_no2_2020.png" alt="NO2 Levels 2020" class="map-image">
     <img src="gridmap_no2_2023.png" alt="NO2 Levels 2023" class="map-image">
     
-    <img src="meanvalues_bar_linechart.png" alt="Mean Values Bar Linechart" class="map-image">
-    <img src="trendvalues_2015_2023.png" alt="Trend Values 2015-2023" class="map-image">
+    <img src="meanvalues_bar_linechart.png" alt="Mean Values Bar Linechart" class="wide-map-image">
+    <img src="trendvalues_2015_2023.png" alt="Trend Values 2015-2023" class="wide-map-image">
     
     <h2>Let's now see some interactive maps...</h2>
     <h4>Let's first see the changes between 2015 and 2020 (COVID-19 year)</h4>
@@ -134,7 +134,7 @@
         </div>
     </div>
     
-    <h4>To explore all the years alle slider and markers</h4>
+    <h4>To explore air quality changes during every year (2015-2023)</h4>
     <div class="iframe-container interactive">
         <iframe src="slider_and_markers.html"></iframe>
     </div>
@@ -150,7 +150,7 @@ in an urban environment, traffic is the most significant cause of air pollution 
     </div>
     
     <h4>We can see how these factors are correlating, and the effect of COVID-19</h4>
-    <img src="no2_traffic_linechart.png" class="map-image">
+    <img src="no2_traffic_linechart.png" class="wide-map-image">
     
     <h4>Scatterplot here</h4>
     
@@ -175,6 +175,6 @@ in an urban environment, traffic is the most significant cause of air pollution 
     <p>The traffic dataset includes average traffic volumes each year in Helsinki. The traffic data is managed by Helsingin kaupunkiynpäristö and is downloaded in csv-format from:</p>
     <p><a href="https://www.avoindata.fi/data/en_GB/dataset/liikennemaarat-helsingissa/resource/a652b375-548a-4ebe-a396-18500595244f">Helsinki Traffic Data</a></p>
     
-    <p>The data is handled with Python and these libraries for the maps and charts: pandas, geopandas, matplotlib, osmnx, pathlib, contextily, numpy, shapely, mapclassify, os, mpl_toolkits, folium, branca, seaborn, mpl_toolkits, pyproj.</p>
+    <p>The data is handled with Python 3.5 and these libraries for the maps and charts: pandas, geopandas, matplotlib, osmnx, pathlib, contextily, numpy, shapely, mapclassify, os, mpl_toolkits, folium, branca, seaborn, mpl_toolkits, pyproj.</p>
 </body>    
 </html>
