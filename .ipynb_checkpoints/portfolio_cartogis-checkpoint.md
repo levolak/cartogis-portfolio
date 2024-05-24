@@ -41,7 +41,7 @@
     <h1>Cartogis Portfolio</h1>
     
     
-    <h1>toimiiko</h1>
+    <h1>toimiik2o</h1>
     
      <p>Here are some maps I created as part of my coursework.</p>
     
@@ -67,15 +67,22 @@
     
 
     <h2>Let's now see some interactive maps...</h2>
+      <!-- First set of maps -->
+    <div class="iframe-container">
+        <iframe src="map_2015.html"></iframe>
+    </div>
+    <div class="iframe-container">
+        <iframe src="map_2020.html"></iframe>
+    </div>
+
+    <!-- Second set of maps -->
+    <div class="iframe-container">
+        <iframe src="map_2020.html"></iframe>
+    </div>
+    <div class="iframe-container">
+        <iframe src="map_2023.html"></iframe>
+    </div>
     
-    <div class="iframe-container">
-        <iframe src="map_2015.html" width="1000" height="800"></iframe>
-    </div>
-    <div class="iframe-container">
-        <iframe src="map_2020.html" width="1000" height="800"></iframe>
-    </div>
-    <div class="iframe-container">
-        <iframe src="map_2023.html" width="1000" height="800"></iframe>
-    </div>
-</body>
+    
+</body>    
 </html>
