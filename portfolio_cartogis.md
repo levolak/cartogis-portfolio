@@ -49,7 +49,7 @@
         /* Adjust iframe size for interactive map */
         .iframe-container.interactive iframe {
             width: 1000px; /* Set fixed width */
-            height: 800%; /* Set fixed height */
+            height: 600%; /* Set fixed height */
         }
 
     </style>
