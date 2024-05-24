@@ -20,7 +20,7 @@
 
         .map-image {
             display: block;
-            width: 200px; /* Set a fixed width */
+            width: 250px; /* Set a fixed width */
             height: auto; /* Maintain aspect ratio */
             max-width: 100%; /* Set a maximum width */
             margin-bottom: 20px;
@@ -45,7 +45,7 @@
 <body>
     <h1>Cartogis Portfolio</h1>
     
-    <h1>test</h1>
+    <h1>test250</h1>
     
     <p>Here are some maps I created as part of my coursework.</p>
 
