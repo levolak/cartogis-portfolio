@@ -49,7 +49,7 @@
         /* Adjust iframe size for interactive map */
         .iframe-container.interactive iframe {
             width: 1000px; /* Set fixed width */
-            height: 600%; /* Set fixed height */
+            height: 800px; /* Set fixed height */
         }
 
     </style>
@@ -128,7 +128,7 @@
     
     <h4>To explore all the years alle slider and markers</h4>
     
-    <h4>How´s the traffic been changing durin thsese years</h4>
+    <h4>How´s the traffic been changing durin thsese years. The traffic values show yearly average traffic in rush hours per 15 minutes </h4>
     <img src="trendvalues_2015_2023.png"  class="map-image">
     
    
@@ -143,7 +143,7 @@
      <h4>tähän scatterplot</h4>
     
     
-    <h4> And finally, air quality and traffic together between 2015-2023</h4>
+    <h4> And finall ffffffffffffy, air quality and traffic together between 2015-2023</h4>
     
     <div class="iframe-container interactive">
             <iframe src="combined_map_with_slider.html"></iframe>
