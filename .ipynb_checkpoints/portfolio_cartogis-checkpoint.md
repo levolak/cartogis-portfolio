@@ -22,7 +22,7 @@
             display: block;
             width: 100%; /* Ensure the image fills its container */
             height: auto; /* Maintain aspect ratio */
-            max-width: 300px; /* Set a maximum width */
+            max-width: 200px; /* Set a maximum width */
             margin-bottom: 20px;
         }
     </style>
@@ -31,7 +31,7 @@
     <h1>Cartogis Portfolio</h1>
     
     
-    <h1>toimiik2o</h1>
+    <h1>toimiik2o354444</h1>
     
      <p>Here are some maps I created as part of my coursework.</p>
     
