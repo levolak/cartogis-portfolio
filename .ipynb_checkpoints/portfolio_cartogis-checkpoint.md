@@ -27,8 +27,8 @@
         }
 
         .iframe-container iframe {
-            width: 100%; /* Set iframe width to fill container */
-            height: auto; /* Maintain aspect ratio */
+            width: auto%; /* Set iframe width to fill container */
+            height: auto%; /* Maintain aspect ratio */
             border: none; /* Remove iframe border */
         }
         
@@ -93,14 +93,7 @@
         <iframe src="map_2020.html"></iframe>
     </div>
 
-    <!-- Second set of maps -->
-    <div class="iframe-container">
-        <iframe src="map_2020.html"></iframe>
-    </div>
-    <div class="iframe-container">
-        <iframe src="map_2023.html"></iframe>
-    </div>
-    
+
     <img src="no2_traffic_linechart.png" alt="Happy Places Map" class="map-image">
   
 </body>    
