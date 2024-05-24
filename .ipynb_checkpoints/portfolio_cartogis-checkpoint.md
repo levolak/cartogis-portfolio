@@ -121,7 +121,8 @@
         <iframe src="slider_and_markers.html"></iframe>
     </div>
     
-    <h4>How's the traffic been changing during these years. The traffic values show yearly average amount of vehicles per hour</h4>
+    <h4>Let´s invite an other dataset to the party, and let´s see how's the traffic been changing during these years. 
+in an urban environment, traffic is the most significant cause of air pollution and thus degrades air quality the most. (lisää lähde hsy) The traffic values show yearly average amount of vehicles per hour. </h4>
     <img src="trendvalues_2015_2023.png" class="map-image">
     <img src="no2_traffic_linechart.png" class="map-image">
     
@@ -148,6 +149,10 @@
     <h4>Datasources:</h4>
     <p>Air quality data is managed by HSY. The dataset includes the average NO2 values and the measurement point for the year in. Shapefiles were used for this study.</p>
     <p><a href="https://www.hsy.fi/en/environmental-information/open-data/avoin-data---sivut/air-quality-monitoring-sites-and-annual-nitrogen-dioxide-no2-averages-in-the-helsinki-metropolitan-area/">HSY Air Quality Data</a></p>
+    <h4>Datasources:</h4>
+    <p>HSY: https://www.hsy.fi/en/air-quality-and-climate/air-quality-in-different-environments/ </p>
+    
+    
     
     <p>The traffic dataset includes average traffic volumes each year in Helsinki. The traffic data is managed by Helsingin kaupunkiynpäristö and is downloaded in csv-format from:</p>
     <p><a href="https://www.avoindata.fi/data/en_GB/dataset/liikennemaarat-helsingissa/resource/a652b375-548a-4ebe-a396-18500595244f">Helsinki Traffic Data</a></p>
