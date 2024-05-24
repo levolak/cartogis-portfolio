@@ -49,7 +49,7 @@
         /* Adjust iframe size for interactive map */
         .iframe-container.interactive iframe {
             width: 1000px; /* Set fixed width */
-            height: 750px; /* Set fixed height */
+            height: 700px; /* Set fixed height */
         }
 
     </style>
@@ -178,8 +178,9 @@ The traffic data is managed by Helsingin kaupunkiynpäristö and is downloaded i
 
     <p>https://www.avoindata.fi/data/en_GB/dataset/liikennemaarat-helsingissa/resource/a652b375-548a-4ebe-a396-18500595244f</p>
     
-    
-     <h4>The data is been handlel with python Python libraries used for the maps and charts:</h4>
+     <p></p>
+     <p></p>
+     <p>The data is been handled with python and these libraries for the maps and charts: pandas, geopanda, matplotlib, osmnx, pathlib, contextily, numpy, shapely, mapclassify, os, mpl_toolkits, folium, branca, seaborn, mpl_toolkits, pyproj.</p>
   
 </body>    
 </html>
