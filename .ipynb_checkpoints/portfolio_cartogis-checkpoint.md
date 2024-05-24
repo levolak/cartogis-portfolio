@@ -17,9 +17,10 @@
             margin-top: 0; /* Remove top margin */
             margin-bottom: 10px; /* Add bottom margin */
         }
+
         .map-image {
             display: block;
-            width: 200px; /* Set a fixed width */
+            width: 400px; /* Set a fixed width */
             height: auto; /* Maintain aspect ratio */
             max-width: 100%; /* Set a maximum width */
             margin-bottom: 20px;
@@ -28,7 +29,7 @@
         /* Container for each iframe */
         .iframe-container {
             width: calc(50% - 10px); /* Adjust width for two iframes with margin */
-            margin-right: 20px; /* Add margin between iframes */
+            margin-right: 10px; /* Add margin between iframes */
             margin-bottom: 30px; /* Increase bottom margin to separate iframes more */
         }
 
@@ -49,7 +50,7 @@
 <body>
     <h1>Cartogis Portfolio</h1>
     
-    <h1>tesfffffft</h1>
+    <h1>testffffffffffff</h1>
     
     <p>Here are some maps I created as part of my coursework.</p>
 
