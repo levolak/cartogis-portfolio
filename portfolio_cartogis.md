@@ -13,15 +13,16 @@
             padding: 20px;
         }
 
-        h1, h2, h3, p {
+        h1, h2, h3, h4, p {
             margin-top: 0; /* Remove top margin */
             margin-bottom: 10px; /* Add bottom margin */
         }
 
         .map-image {
             display: block;
-            max-width: 100%; /* Ensure the image scales down to fit its container */
+            width: 100%; /* Ensure the image fills its container */
             height: auto; /* Maintain aspect ratio */
+            max-width: 300px; /* Set a maximum width */
             margin-bottom: 20px;
         }
     </style>
@@ -51,7 +52,8 @@
     <!-- Maps -->
     <h6>And this is where the story begins...</h6>
 
-    <h4>change:</h4>
+     <!-- Maps -->
+    <h4>Change:</h4>
     <img src="gridmap_no2_2015.png" alt="Happy Places Map" class="map-image">
     <img src="gridmap_no2_2020.png" alt="Happy Places Map" class="map-image">
     <img src="gridmap_no2_2023.png" alt="Happy Places Map" class="map-image">
