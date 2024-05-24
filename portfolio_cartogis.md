@@ -49,7 +49,7 @@
         /* Adjust iframe size for interactive map */
         .iframe-container.interactive iframe {
             width: 1000px; /* Set fixed width */
-            height: 800px; /* Set fixed height */
+            height: 750px; /* Set fixed height */
         }
 
     </style>
@@ -57,7 +57,7 @@
 <body>
     <h1>This is the portfolio page of the Helsinki University Cartogis course made by Lauri Levomäki </h1>
     
-    <h1>In this page, you can see some maps made during the course, and storytelling section about air quality in Helsinki, Finland. </h1>
+    <h2>In this page, you can see some maps made during the course, and storytelling section about air quality in Helsinki, Finland. </h2>
     
     <p>First, some maps I created as part of my coursework.</p>
 
@@ -128,7 +128,11 @@
     
     <h4>To explore all the years alle slider and markers</h4>
     
-    <h4>How´s the traffic been changing durin thsese years. The traffic values show yearly average traffic in rush hours per 15 minutes </h4>
+    <div class="iframe-container interactive">
+            <iframe src="slider_and_markers.html"></iframe>
+        </div>
+    
+    <h4>How´s the traffic been changing durin thsese years. The traffic values show yearly average amount of vehicles per hour </h4>
     <img src="trendvalues_2015_2023.png"  class="map-image">
     
    
@@ -136,6 +140,11 @@
     
     
     <h4>Traffic slider alle</h4>
+    <div class="iframe-container interactive">
+            <iframe src="traffic_map_with_slider.html"></iframe>
+        </div>
+    
+    
     
     <h4>We can see how the these factors are correlating, and the effect of covid-19 </h4>
     <img src="no2_traffic_linechart.png"  class="map-image">
@@ -149,23 +158,28 @@
             <iframe src="combined_map_with_slider.html"></iframe>
         </div>
     
+    <h3>Conclusion</h3>
+    <p>As can be seen from the data, the air quality values are still relatively good in Helsinki. Understanding the correlation between traffic and air pollution is essential for addressing environmental and public health challenges and make the city better. The average NO2-values varies between 15-35 (µg/m³) and these are still LÄHDE The correlation between traffic emissions and air quality can be seen. Even though the coronavirus confused the trends, it can be clearly seen that the green transition of traffic has reduced emission values. it is still good to monitor and analyze air quality and the factors affecting it in the future as well. This approach will not only enhance the city's air quality but also improve the overall quality of life for its residents. By prioritizing sustainable transportation and efficient traffic management, Helsinki can pave the way for a healthier, more sustainable urban environment.</p>
+    
     
    
     
     
     <h4>Change:</h4>
     
-    <h4>Datasources: Helsinki Region Infoshare</h4>
-    
-     <h4>Python libraries used for the maps and charts:</h4>
-    
-    
-    
-    
+    <h4>Datasources:</h4>
+    <p> Air quality data is managed by HSY.
+The dataset includes the average NO2 values and the measurement point for the year in. Shapefiles were used for this study.</p>
+    <p> https://www.hsy.fi/en/environmental-information/open-data/avoin-data---sivut/air-quality-monitoring-sites-and-annual-nitrogen-dioxide-no2-averages-in-the-helsinki-metropolitan-area/</p>
+    <p></p>
+    <p>The traffic dataset includes average traffic volumes each year in Helsinki
+The traffic data is managed by Helsingin kaupunkiynpäristö and is downloaded in csv-format from:</p>
 
-     
-      
+
+    <p>https://www.avoindata.fi/data/en_GB/dataset/liikennemaarat-helsingissa/resource/a652b375-548a-4ebe-a396-18500595244f</p>
     
+    
+     <h4>The data is been handlel with python Python libraries used for the maps and charts:</h4>
   
 </body>    
 </html>
