@@ -20,7 +20,7 @@
 
         .map-image {
             display: block;
-            width: 250px; /* Set a fixed width */
+            width: 600px; /* Set a fixed width */
             height: auto; /* Maintain aspect ratio */
             max-width: 100%; /* Set a maximum width */
             margin-bottom: 20px;
@@ -29,9 +29,8 @@
         /* Container for each iframe */
         .iframe-container {
             width: calc(50% - 10px); /* Adjust width for two iframes with margin */
-            margin-right: 20px; /* Add margin between iframes */
+            margin-right: 10px; /* Add margin between iframes */
             margin-bottom: 30px; /* Increase bottom margin to separate iframes more */
-            float: left; /* Float the containers to align them side by side */
         }
 
         /* Iframe styles */
@@ -39,6 +38,12 @@
             width: 100%; /* Set iframe width to fill container */
             height: 400px; /* Set iframe height */
             border: none; /* Remove iframe border */
+        }
+
+        /* Flex container for iframes */
+        .iframe-flex-container {
+            display: flex; /* Use flexbox */
+            flex-wrap: wrap; /* Wrap items to next line if necessary */
         }
     </style>
 </head>
@@ -71,4 +76,25 @@
     <h4>Change:</h4>
     <img src="gridmap_no2_2015.png" alt="Happy Places Map" class="map-image">
     <img src="gridmap_no2_2020.png" alt="Happy Places Map" class="map-image">
-    <img src="gridmap_no2_2023.png" alt="
+    <img src="gridmap_no2_2023.png" alt="Happy Places Map" class="map-image">
+    
+    <img src="meanvalues_bar_linechart.png" alt="Happy Places Map" class="map-image">
+    <img src="trendvalues_2015_2023.png" alt="Happy Places Map" class="map-image">
+    
+    <h2>Let's now see some interactive maps...</h2>
+    
+    <!-- Flex container for iframes -->
+    <div class="iframe-flex-container">
+        <!-- First set of maps -->
+        <div class="iframe-container">
+            <iframe src="map_2015.html"></iframe>
+        </div>
+        <div class="iframe-container">
+            <iframe src="map_2020.html"></iframe>
+        </div>
+    </div>
+
+    <img src="no2_traffic_linechart.png" alt="Happy Places Map" class="map-image">
+  
+</body>    
+</html>
