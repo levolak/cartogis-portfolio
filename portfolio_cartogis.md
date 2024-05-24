@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cartogis Portfolio</title>
+    
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -21,7 +21,7 @@
         .map-image {
             display: block;
             width: 600px; /* Set a fixed width */
-            height: 500px; /* Maintain aspect ratio */
+            height: 400px; /* Maintain aspect ratio */
             max-width: 100%; /* Set a maximum width */
             margin-bottom: 20px;
         }
@@ -31,8 +31,8 @@
         /* Existing CSS rules */
 
         .wide-map-image {
-            width: 900px; /* Set a wider width */
-            height: 500px; /* Maintain aspect ratio */
+            width: 1200px; /* Set a wider width */
+            height: 600px; /* Maintain aspect ratio */
             max-width: 100%; /* Set a maximum width */
             display: block;
             margin-bottom: 20px;
