@@ -41,7 +41,7 @@ h1, h2, h3, h4, p {
 
 .map-image {
     display: block;
-    width: 300; /* Ensure the image fills its container */
+    width: 200; /* Ensure the image fills its container */
     height: auto; /* Set a fixed height */
     max-width: 100%; /* Set a maximum width */
     margin-bottom: 20px;
@@ -57,7 +57,7 @@ h1, h2, h3, h4, p {
     <h1>Cartogis Portfolio</h1>
     
     
-    <h1>to555nakyo55555</h1>
+    <h1>to555nakyouusin55555</h1>
     
      <p>Here are some maps I created as part of my coursework.</p>
     
