@@ -20,7 +20,7 @@
 
         .map-image {
             display: block;
-            width: 400px; /* Set a fixed width */
+            width: 550px; /* Set a fixed width */
             height: 600px; /* Maintain aspect ratio */
             max-width: 100%; /* Set a maximum width */
             margin-bottom: 20px;
@@ -68,7 +68,7 @@
     </style>
 </head>
 <body>
-    <h1>This is the portfolio page of the Helsinki University Cartogis course made by Lauri Levomäki</h1>
+    <h1>This is the portfolio page for the Helsinki University Cartogis course made by Lauri Levomäki</h1>
     
     <h3>In this page, you can see some maps made during the course, and the storytelling section about air quality in Helsinki, Finland.</h3>
     
