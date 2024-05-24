@@ -50,7 +50,7 @@
 <body>
     <h1>Cartogis Portfolio</h1>
     
-    <h1>test250</h1>
+    <h1>letsmake</h1>
     
     <p>Here are some maps I created as part of my coursework.</p>
 
@@ -68,10 +68,16 @@
     <!-- Maps -->
     <h6>And this is where the story begins...</h6>
     
-    <h2>NO2:</h2>
+    <h1>Air quality data explore in Helsinki city</h1>
+    
+      <p>Air pollution, particularly from nitrogen dioxide (NO2), is a significant environmental and public health concern in urban areas like Helsinki. NO2 is primarily emitted from vehicles, industrial processes, and combustion of fossil fuels. Exposure to NO2 and other air pollutants can have detrimental effects on human health, including respiratory issues, cardiovascular diseases, and even premature death.
+
+Given the detrimental impact of air pollution on public health, it's crucial to monitor and analyze air quality data. By conducting such analyses and creating maps, policymakers, urban planners, and citizens can better understand the spatial and temporal distribution of air pollution within the city. This understanding can inform targeted interventions and policies aimed at reducing pollution levels, mitigating public health risks, and improving overall urban livability.</p>
+    
     <!-- Embedded YouTube Video -->
     <iframe width="560" height="315" src="https://www.youtube.com/embed/GVBeY1jSG9Y?si=jR_lifNTAlhSQSE7" frameborder="0" allowfullscreen></iframe>
 
+    <h6>And this is where the story begins...</h6>
     <!-- Maps -->
     <h4>Change:</h4>
     <img src="gridmap_no2_2015.png" alt="Happy Places Map" class="map-image">
@@ -80,6 +86,21 @@
     
     <img src="meanvalues_bar_linechart.png" alt="Happy Places Map" class="map-image">
     <img src="trendvalues_2015_2023.png" alt="Happy Places Map" class="map-image">
+    
+    <!-- next to each other-->
+    <div class="iframe-flex-container">
+        <!-- First set of maps -->
+        <div class="iframe-container">
+            <iframe src="gridmap_no2_2015.png"></iframe>
+        </div>
+        <div class="iframe-container">
+            <iframe src="gridmap_no2_2020.html"></iframe>
+        </div>
+    </div>
+    
+    
+    
+    
     
     <h2>Let's now see some interactive maps...</h2>
     
@@ -94,7 +115,28 @@
         </div>
     </div>
 
+    <!-- Flex container for iframes another set -->
+    <div class="iframe-flex-container">
+        <!-- First set of maps -->
+        <div class="iframe-container">
+            <iframe src="map_2020.html"></iframe>
+        </div>
+        <div class="iframe-container">
+            <iframe src="map_2023.html"></iframe>
+        </div>
+    </div>
+    
+    
     <img src="no2_traffic_linechart.png" alt="Happy Places Map" class="map-image">
+    
+    
+    
+    <h4>Change:</h4>
+    
+    <h4>Datasources:</h4>
+    
+     <h4>Python libraries:</h4>
+    
   
 </body>    
 </html>
