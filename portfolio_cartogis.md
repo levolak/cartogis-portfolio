@@ -35,6 +35,12 @@
             height: auto; /* Maintain aspect ratio */
             margin-bottom: 20px;
         }
+        
+        .map-image {
+            max-width: 100%; /* Ensure the image scales down to fit its container */
+            height: auto; /* Maintain aspect ratio */
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body>
@@ -49,13 +55,15 @@
     
     <!-- Images -->
     <h3>Population density of Helsinki:</h3>
-    <img src="population_density_helsinki.png" alt="Population Density Helsinki">
+    <img src="population_density_helsinki.png" alt="Population Density Helsinki" class="map-image">
 
     <h3>Where people aged 55-75 feel happy in Helsinki:</h3>
-    <img src="MyMap_happypoints/happy_places_map.png" alt="Happy Places Map">
+    <img src="MyMap_happypoints/happy_places_map.png" alt="Happy Places Map" class="map-image">
     
     <h3>About the mobile internet latencies in Europe:</h3>
-    <img src="MyMap_hexbin_map_europe.png" alt="Mobile Internet Latencies in Europe">
+    <!-- Map of Europe -->
+    <img src="MyMap_hexbin_map_europe.png" alt="Mobile Internet Latencies in Europe" class="map-image">
+   
 
     <!-- Maps -->
     <h6>And this is where the story begins...</h6>
