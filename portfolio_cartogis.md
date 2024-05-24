@@ -48,8 +48,8 @@
         
         /* Adjust iframe size for interactive map */
         .iframe-container.interactive iframe {
-            width: 100%; /* Set fixed width */
-            height: 100%; /* Set fixed height */
+            width: 1000px; /* Set fixed width */
+            height: 800%; /* Set fixed height */
         }
 
     </style>
@@ -126,26 +126,31 @@
         </div>
     </div>
     
+    <h4>To explore all the years alle slider and markers</h4>
+    
     <h4>How´s the traffic been changing durin thsese years</h4>
     <img src="trendvalues_2015_2023.png"  class="map-image">
     
-    
-    
+   
     <img src="no2_traffic_linechart.png"  class="map-image">
+    
+    
+    <h4>Traffic slider alle</h4>
     
     <h4>We can see how the these factors are correlating, and the effect of covid-19 </h4>
     <img src="no2_traffic_linechart.png"  class="map-image">
     
-      <h4>tähän scatterplot</h4>
+     <h4>tähän scatterplot</h4>
     
     
+    <h4> And finally, air quality and traffic together between 2015-2023</h4>
     
     <div class="iframe-container interactive">
             <iframe src="combined_map_with_slider.html"></iframe>
         </div>
     
     
-    
+   
     
     
     <h4>Change:</h4>
@@ -153,6 +158,11 @@
     <h4>Datasources: Helsinki Region Infoshare</h4>
     
      <h4>Python libraries used for the maps and charts:</h4>
+    
+    
+    
+    
+
      
       
     
