@@ -51,13 +51,12 @@
             width: 1000px; /* Set fixed width */
             height: 700px; /* Set fixed height */
         }
-
     </style>
 </head>
 <body>
-    <h1>This is the portfolio page of the Helsinki University Cartogis course made by Lauri Levomäki </h1>
+    <h1>This is the portfolio page of the Helsinki University Cartogis course made by Lauri Levomäki</h1>
     
-    <h2>In this page, you can see some maps made during the course, and storytelling section about air quality in Helsinki, Finland. </h2>
+    <h2>In this page, you can see some maps made during the course, and storytelling section about air quality in Helsinki, Finland.</h2>
     
     <p>First, some maps I created as part of my coursework.</p>
 
@@ -77,33 +76,24 @@
     
     <h1>Air quality data explore in Helsinki city</h1>
     
-      <p>Air pollution, particularly from nitrogen dioxide (NO2), is a significant environmental and public health concern in urban areas like Helsinki. NO2 is primarily emitted from vehicles, industrial processes, and combustion of fossil fuels. Exposure to NO2 and other air pollutants can have detrimental effects on human health, including respiratory issues, cardiovascular diseases, and even premature death.
-       <p></p>
+    <p>Air pollution, particularly from nitrogen dioxide (NO2), is a significant environmental and public health concern in urban areas like Helsinki. NO2 is primarily emitted from vehicles, industrial processes, and combustion of fossil fuels. Exposure to NO2 and other air pollutants can have detrimental effects on human health, including respiratory issues, cardiovascular diseases, and even premature death.</p>
      
-  <p>Given the detrimental impact of air pollution on public health, it's crucial to monitor and analyze air quality data. By conducting such analyses and creating maps, policymakers, urban planners, and citizens can better understand the spatial and temporal distribution of air pollution within the city. This understanding can inform targeted interventions and policies aimed at reducing pollution levels, mitigating public health risks, and improving overall urban livability.</p>
-    
+    <p>Given the detrimental impact of air pollution on public health, it's crucial to monitor and analyze air quality data. By conducting such analyses and creating maps, policymakers, urban planners, and citizens can better understand the spatial and temporal distribution of air pollution within the city. This understanding can inform targeted interventions and policies aimed at reducing pollution levels, mitigating public health risks, and improving overall urban livability.</p>
     
     <!-- Embedded YouTube Video -->
     <iframe width="560" height="315" src="https://www.youtube.com/embed/GVBeY1jSG9Y?si=jR_lifNTAlhSQSE7" frameborder="0" allowfullscreen></iframe>
 
- 
     <!-- Maps -->
     <h4>Change:</h4>
-    <img src="gridmap_no2_2015.png" alt="Happy Places Map" class="map-image">
-    <img src="gridmap_no2_2020.png" alt="Happy Places Map" class="map-image">
-    <img src="gridmap_no2_2023.png" alt="Happy Places Map" class="map-image">
+    <img src="gridmap_no2_2015.png" alt="NO2 Levels 2015" class="map-image">
+    <img src="gridmap_no2_2020.png" alt="NO2 Levels 2020" class="map-image">
+    <img src="gridmap_no2_2023.png" alt="NO2 Levels 2023" class="map-image">
     
-    <img src="meanvalues_bar_linechart.png" alt="Happy Places Map" class="map-image">
-    <img src="trendvalues_2015_2023.png" alt="Happy Places Map" class="map-image">
-    
-    
-    
-    
-      
-   
+    <img src="meanvalues_bar_linechart.png" alt="Mean Values Bar Linechart" class="map-image">
+    <img src="trendvalues_2015_2023.png" alt="Trend Values 2015-2023" class="map-image">
     
     <h2>Let's now see some interactive maps...</h2>
-    <h4>Let´s first see the changes between 2015 and 2020 (covid-19 year)</h4>
+    <h4>Let's first see the changes between 2015 and 2020 (COVID-19 year)</h4>
     <!-- Flex container for iframes -->
     <div class="iframe-flex-container">
         <!-- First set of maps -->
@@ -127,60 +117,41 @@
     </div>
     
     <h4>To explore all the years alle slider and markers</h4>
-    
     <div class="iframe-container interactive">
-            <iframe src="slider_and_markers.html"></iframe>
-        </div>
+        <iframe src="slider_and_markers.html"></iframe>
+    </div>
     
-    <h4>How´s the traffic been changing durin thsese years. The traffic values show yearly average amount of vehicles per hour </h4>
-    <img src="trendvalues_2015_2023.png"  class="map-image">
-    
-   
-    <img src="no2_traffic_linechart.png"  class="map-image">
-    
+    <h4>How's the traffic been changing during these years. The traffic values show yearly average amount of vehicles per hour</h4>
+    <img src="trendvalues_2015_2023.png" class="map-image">
+    <img src="no2_traffic_linechart.png" class="map-image">
     
     <h4>Traffic slider alle</h4>
     <div class="iframe-container interactive">
-            <iframe src="traffic_map_with_slider.html"></iframe>
-        </div>
+        <iframe src="traffic_map_with_slider.html"></iframe>
+    </div>
     
+    <h4>We can see how these factors are correlating, and the effect of COVID-19</h4>
+    <img src="no2_traffic_linechart.png" class="map-image">
     
+    <h4>Scatterplot here</h4>
     
-    <h4>We can see how the these factors are correlating, and the effect of covid-19 </h4>
-    <img src="no2_traffic_linechart.png"  class="map-image">
-    
-     <h4>tähän scatterplot</h4>
-    
-    
-    <h4> And finall ffffffffffffy, air quality and traffic together between 2015-2023</h4>
-    
+    <h4>And finally, air quality and traffic together between 2015-2023</h4>
     <div class="iframe-container interactive">
-            <iframe src="combined_map_with_slider.html"></iframe>
-        </div>
+        <iframe src="combined_map_with_slider.html"></iframe>
+    </div>
     
     <h3>Conclusion</h3>
-    <p>As can be seen from the data, the air quality values are still relatively good in Helsinki. Understanding the correlation between traffic and air pollution is essential for addressing environmental and public health challenges and make the city better. The average NO2-values varies between 15-35 (µg/m³) and these are still LÄHDE The correlation between traffic emissions and air quality can be seen. Even though the coronavirus confused the trends, it can be clearly seen that the green transition of traffic has reduced emission values. it is still good to monitor and analyze air quality and the factors affecting it in the future as well. This approach will not only enhance the city's air quality but also improve the overall quality of life for its residents. By prioritizing sustainable transportation and efficient traffic management, Helsinki can pave the way for a healthier, more sustainable urban environment.</p>
+    <p>As can be seen from the data, the air quality values are still relatively good in Helsinki. Understanding the correlation between traffic and air pollution is essential for addressing environmental and public health challenges and make the city better. The average NO2-values vary between 15-35 (µg/m³) and these are still acceptable levels. The correlation between traffic emissions and air quality can be seen.</p>
     
-    
-   
-    
-    
-    <h4>Change:</h4>
+    <p>Even though the coronavirus disrupted the trends, it can be clearly seen that the green transition of traffic has reduced emission values. It is still important to monitor and analyze air quality and the factors affecting it in the future. This approach will not only enhance the city's air quality but also improve the overall quality of life for its residents. By prioritizing sustainable transportation and efficient traffic management, Helsinki can pave the way for a healthier, more sustainable urban environment.</p>
     
     <h4>Datasources:</h4>
-    <p> Air quality data is managed by HSY.
-The dataset includes the average NO2 values and the measurement point for the year in. Shapefiles were used for this study.</p>
-    <p> https://www.hsy.fi/en/environmental-information/open-data/avoin-data---sivut/air-quality-monitoring-sites-and-annual-nitrogen-dioxide-no2-averages-in-the-helsinki-metropolitan-area/</p>
-    <p></p>
-    <p>The traffic dataset includes average traffic volumes each year in Helsinki
-The traffic data is managed by Helsingin kaupunkiynpäristö and is downloaded in csv-format from:</p>
-
-
-    <p>https://www.avoindata.fi/data/en_GB/dataset/liikennemaarat-helsingissa/resource/a652b375-548a-4ebe-a396-18500595244f</p>
+    <p>Air quality data is managed by HSY. The dataset includes the average NO2 values and the measurement point for the year in. Shapefiles were used for this study.</p>
+    <p><a href="https://www.hsy.fi/en/environmental-information/open-data/avoin-data---sivut/air-quality-monitoring-sites-and-annual-nitrogen-dioxide-no2-averages-in-the-helsinki-metropolitan-area/">HSY Air Quality Data</a></p>
     
-     <p></p>
-     <p></p>
-     <p>The data is been handled with python and these libraries for the maps and charts: pandas, geopanda, matplotlib, osmnx, pathlib, contextily, numpy, shapely, mapclassify, os, mpl_toolkits, folium, branca, seaborn, mpl_toolkits, pyproj.</p>
-  
+    <p>The traffic dataset includes average traffic volumes each year in Helsinki. The traffic data is managed by Helsingin kaupunkiynpäristö and is downloaded in csv-format from:</p>
+    <p><a href="https://www.avoindata.fi/data/en_GB/dataset/liikennemaarat-helsingissa/resource/a652b375-548a-4ebe-a396-18500595244f">Helsinki Traffic Data</a></p>
+    
+    <p>The data is handled with Python and these libraries for the maps and charts: pandas, geopandas, matplotlib, osmnx, pathlib, contextily, numpy, shapely, mapclassify, os, mpl_toolkits, folium, branca, seaborn, mpl_toolkits, pyproj.</p>
 </body>    
 </html>
