@@ -17,21 +17,38 @@
             margin-top: 0; /* Remove top margin */
             margin-bottom: 10px; /* Add bottom margin */
         }
+        
+        iframe-container {
+            display: inline-block;
+            width: calc(50% - 10px); /* Adjust width for two iframes with margin */
+            margin-right: 20px; /* Add margin between iframes */
+            margin-bottom: 20px; /* Add bottom margin */
+            vertical-align: top; /* Align iframes at the top */
+        }
 
+        .iframe-container iframe {
+            width: 100%; /* Set iframe width to fill container */
+            height: 400px; /* Set iframe height */
+            border: none; /* Remove iframe border */
+        }
+        
         .map-image {
             display: block;
             width: 100%; /* Ensure the image fills its container */
             height: auto; /* Maintain aspect ratio */
-            max-width: 200px; /* Set a maximum width */
+            max-width: 300px; /* Set a maximum width */
+            max-height: 200px; /* Set a maximum height */
             margin-bottom: 20px;
         }
+
+ 
     </style>
 </head>
 <body>
     <h1>Cartogis Portfolio</h1>
     
     
-    <h1>toimiik2o354444</h1>
+    <h1>toimiik2o</h1>
     
      <p>Here are some maps I created as part of my coursework.</p>
     
@@ -51,6 +68,10 @@
 
     <!-- Maps -->
     <h6>And this is where the story begins...</h6>
+    
+    <h2>NO2:</h2>
+    <!-- Embedded YouTube Video -->
+    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=GVBeY1jSG9Y" frameborder="0" allowfullscreen></iframe>
 
      <!-- Maps -->
     <h4>Change:</h4>
@@ -82,6 +103,9 @@
     <img src="traffic_amounts_bar_linechart.png" alt="Happy Places Map" class="map-image">
     <img src="no2_traffic_linechart.png" alt="Happy Places Map" class="map-image">
     <img src=".png" alt="Happy Places Map" class="map-image">
+    
+    
+    
     
 </body>    
 </html>
