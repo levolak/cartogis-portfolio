@@ -71,8 +71,10 @@
     <h1>Air quality data explore in Helsinki city</h1>
     
       <p>Air pollution, particularly from nitrogen dioxide (NO2), is a significant environmental and public health concern in urban areas like Helsinki. NO2 is primarily emitted from vehicles, industrial processes, and combustion of fossil fuels. Exposure to NO2 and other air pollutants can have detrimental effects on human health, including respiratory issues, cardiovascular diseases, and even premature death.
-
-Given the detrimental impact of air pollution on public health, it's crucial to monitor and analyze air quality data. By conducting such analyses and creating maps, policymakers, urban planners, and citizens can better understand the spatial and temporal distribution of air pollution within the city. This understanding can inform targeted interventions and policies aimed at reducing pollution levels, mitigating public health risks, and improving overall urban livability.</p>
+       <p></p>
+     
+  <p>Given the detrimental impact of air pollution on public health, it's crucial to monitor and analyze air quality data. By conducting such analyses and creating maps, policymakers, urban planners, and citizens can better understand the spatial and temporal distribution of air pollution within the city. This understanding can inform targeted interventions and policies aimed at reducing pollution levels, mitigating public health risks, and improving overall urban livability.</p>
+    <p>And this is where the story begins...</p>
     
     <!-- Embedded YouTube Video -->
     <iframe width="560" height="315" src="https://www.youtube.com/embed/GVBeY1jSG9Y?si=jR_lifNTAlhSQSE7" frameborder="0" allowfullscreen></iframe>
@@ -94,7 +96,7 @@ Given the detrimental impact of air pollution on public health, it's crucial to 
             <iframe src="gridmap_no2_2015.png"></iframe>
         </div>
         <div class="iframe-container">
-            <iframe src="gridmap_no2_2020.html"></iframe>
+            <iframe src="gridmap_no2_2020.png"></iframe>
         </div>
     </div>
     
@@ -103,7 +105,7 @@ Given the detrimental impact of air pollution on public health, it's crucial to 
     
     
     <h2>Let's now see some interactive maps...</h2>
-    
+    <h4>Let´s first see the changes between 2015 and 2020 (covid-19 year)</h4>
     <!-- Flex container for iframes -->
     <div class="iframe-flex-container">
         <!-- First set of maps -->
@@ -114,7 +116,8 @@ Given the detrimental impact of air pollution on public health, it's crucial to 
             <iframe src="map_2020.html"></iframe>
         </div>
     </div>
-
+    
+    <h4>And next the changes between 2020 and 2023</h4>
     <!-- Flex container for iframes another set -->
     <div class="iframe-flex-container">
         <!-- First set of maps -->
@@ -126,14 +129,18 @@ Given the detrimental impact of air pollution on public health, it's crucial to 
         </div>
     </div>
     
+    <h4>We can see the how covid-19 affected the amount of No2-values and traffic</h4>
+    <img src="no2_traffic_linechart.png"  class="map-image">
     
-    <img src="no2_traffic_linechart.png" alt="Happy Places Map" class="map-image">
+    <img src="combined_map_with_slider.html"  class="map-image">
+    
+    
     
     
     
     <h4>Change:</h4>
     
-    <h4>Datasources:</h4>
+    <h4>Datasources: remember slider and markers and traffic map with slider</h4>
     
      <h4>Python libraries:</h4>
     
