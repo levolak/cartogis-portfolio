@@ -5,49 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cartogis Portfolio</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #121212; /* Dark background color */
-            color: #ffffff; /* White text color */
-            margin: 0;
-            padding: 20px;
-        }
-
-        h1, h2, h3, h4, p {
-            margin-top: 0; /* Remove top margin */
-            margin-bottom: 10px; /* Add bottom margin */
         
-        /* Container for sets of maps */
-        .iframe-set {
-            margin-bottom: 20px; /* Add bottom margin for spacing */
-        }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background color */
+    color: #ffffff; /* White text color */
+    margin: 0;
+    padding: 20px;
+}
 
-    /* Container for each iframe */
-    .iframe-container {
-        display: inline-block;
-        width: calc(50% - 10px); /* Adjust width for two iframes with margin */
-        margin-right: 20px; /* Add margin between iframes */
-        vertical-align: top; /* Align iframes at the top */
-        }
+h1, h2, h3, h4, p {
+    margin-top: 0; /* Remove top margin */
+    margin-bottom: 10px; /* Add bottom margin */
+}
 
-    /* Iframe styles */
-    .iframe-container iframe {
-        width: 100%; /* Set iframe width to fill container */
-        height: 400px; /* Set iframe height */
-        border: none; /* Remove iframe border */
-      }
+/* Container for sets of maps */
+.iframe-set {
+    margin-bottom: 20px; /* Add bottom margin for spacing */
+}
 
-        
+/* Container for each iframe */
+.iframe-container {
+    display: inline-block;
+    width: calc(50% - 10px); /* Adjust width for two iframes with margin */
+    margin-right: 20px; /* Add margin between iframes */
+    vertical-align: top; /* Align iframes at the top */
+}
 
-        
-      .map-image {
-        display: block;
-        width: auto; /* Ensure the image fills its container */
-        height: 500px; /* Set a fixed height */
-        max-width: 100%; /* Set a maximum width */
-        margin-bottom: 20px;
-      }
+/* Iframe styles */
+.iframe-container iframe {
+    width: 100%; /* Set iframe width to fill container */
+    height: 400px; /* Set iframe height */
+    border: none; /* Remove iframe border */
+}
 
+.map-image {
+    display: block;
+    width: auto; /* Ensure the image fills its container */
+    height: 500px; /* Set a fixed height */
+    max-width: 100%; /* Set a maximum width */
+    margin-bottom: 20px;
+}
+
+    
         
 
  
