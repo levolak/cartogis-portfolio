@@ -25,6 +25,20 @@
             max-width: 100%; /* Set a maximum width */
             margin-bottom: 20px;
         }
+        
+
+       
+        /* Existing CSS rules */
+
+        .wide-map-image {
+            width: 1000px; /* Set a wider width */
+            height: 700px; /* Maintain aspect ratio */
+            max-width: 100%; /* Set a maximum width */
+            display: block;
+            margin-bottom: 20px;
+        }
+
+
 
         /* Container for each iframe */
         .iframe-container {
@@ -69,7 +83,7 @@
     
     <h3>About the mobile internet latencies in Europe:</h3>
     <!-- Map of Europe -->
-    <img src="hexbin_map_europe.png" alt="Mobile Internet Latencies in Europe" class="map-image">
+    <img src="hexbin_map_europe.png" alt="Mobile Internet Latencies in Europe" class="wide-map-image">
    
     <!-- Maps -->
     <h6>And this is where the story begins...</h6>
