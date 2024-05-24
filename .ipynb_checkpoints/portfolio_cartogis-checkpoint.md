@@ -57,7 +57,7 @@ h1, h2, h3, h4, p {
     <h1>Cartogis Portfolio</h1>
     
     
-    <h1>to555nakyyko55555</h1>
+    <h1>to555nakyo55555</h1>
     
      <p>Here are some maps I created as part of my coursework.</p>
     
