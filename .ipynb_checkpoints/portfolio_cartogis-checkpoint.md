@@ -48,8 +48,8 @@
         
         /* Adjust iframe size for interactive map */
         .iframe-container.interactive iframe {
-            width: 600px; /* Set fixed width */
-            height: 600px; /* Set fixed height */
+            width: auto; /* Set fixed width */
+            height: auto; /* Set fixed height */
         }
 
     </style>
