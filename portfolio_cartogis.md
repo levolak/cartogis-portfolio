@@ -20,8 +20,8 @@
 
         .map-image {
             display: block;
-            width: 600px; /* Set a fixed width */
-            height: auto; /* Maintain aspect ratio */
+            width: 700px; /* Set a fixed width */
+            height: ; /* Maintain aspect ratio */
             max-width: 100%; /* Set a maximum width */
             margin-bottom: 20px;
         }
@@ -48,18 +48,18 @@
         
         /* Adjust iframe size for interactive map */
         .iframe-container.interactive iframe {
-            width: auto; /* Set fixed width */
-            height: auto; /* Set fixed height */
+            width: 100%; /* Set fixed width */
+            height: 100%; /* Set fixed height */
         }
 
     </style>
 </head>
 <body>
-    <h1>Cartogis Portfolio</h1>
+    <h1>This is the portfolio page of the Helsinki University Cartogis course made by Lauri Levomäki </h1>
     
-    <h1>letsmake</h1>
+    <h1>In this page, you can see some maps made during the course, and storytelling section about air quality in Helsinki, Finland. </h1>
     
-    <p>Here are some maps I created as part of my coursework.</p>
+    <p>First, some maps I created as part of my coursework.</p>
 
     <!-- Images -->
     <h3>Population density of Helsinki:</h3>
@@ -96,7 +96,10 @@
     <img src="meanvalues_bar_linechart.png" alt="Happy Places Map" class="map-image">
     <img src="trendvalues_2015_2023.png" alt="Happy Places Map" class="map-image">
     
-
+    
+    
+    
+      
    
     
     <h2>Let's now see some interactive maps...</h2>
@@ -123,8 +126,17 @@
         </div>
     </div>
     
-    <h4>We can see how the covid-19 affected the amount of No2-values and traffic</h4>
+    <h4>How´s the traffic been changing durin thsese years</h4>
+    <img src="trendvalues_2015_2023.png"  class="map-image">
+    
+    
+    
     <img src="no2_traffic_linechart.png"  class="map-image">
+    
+    <h4>We can see how the these factors are correlating, and the effect of covid-19 </h4>
+    <img src="no2_traffic_linechart.png"  class="map-image">
+    
+      <h4>tähän scatterplot</h4>
     
     
     
@@ -138,9 +150,11 @@
     
     <h4>Change:</h4>
     
-    <h4>Datasources: remember slider and markers and traffic map with slider</h4>
+    <h4>Datasources: Helsinki Region Infoshare</h4>
     
-     <h4>Python libraries:</h4>
+     <h4>Python libraries used for the maps and charts:</h4>
+     
+      
     
   
 </body>    
