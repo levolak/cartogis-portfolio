@@ -100,7 +100,6 @@
         <iframe src="map_2023.html"></iframe>
     </div>
     
-    <img src="traffic_amounts_bar_linechart.png" alt="Happy Places Map" class="map-image">
     <img src="no2_traffic_linechart.png" alt="Happy Places Map" class="map-image">
   
 </body>    
