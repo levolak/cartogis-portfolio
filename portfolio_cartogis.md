@@ -41,7 +41,7 @@
 
         .map-image {
             display: block;
-            width: 200px; /* Ensure the image fills its container */
+            width: 50px; /* Ensure the image fills its container */
             height: auto; /* Set a fixed height */
             max-width: 100%; /* Set a maximum width */
             margin-bottom: 20px;
