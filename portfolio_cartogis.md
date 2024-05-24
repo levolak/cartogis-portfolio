@@ -20,8 +20,8 @@
 
         .map-image {
             display: block;
-            width: 800px; /* Set a fixed width */
-            height: 650px; /* Maintain aspect ratio */
+            width: 600px; /* Set a fixed width */
+            height: 500px; /* Maintain aspect ratio */
             max-width: 100%; /* Set a maximum width */
             margin-bottom: 20px;
         }
@@ -31,8 +31,8 @@
         /* Existing CSS rules */
 
         .wide-map-image {
-            width: 1000px; /* Set a wider width */
-            height: 700px; /* Maintain aspect ratio */
+            width: 900px; /* Set a wider width */
+            height: 500px; /* Maintain aspect ratio */
             max-width: 100%; /* Set a maximum width */
             display: block;
             margin-bottom: 20px;
@@ -163,11 +163,11 @@ in an urban environment, traffic is the most significant cause of air pollution 
     <p>As can be seen from the data, the air quality values are still relatively good in Helsinki. Understanding the correlation between traffic and air pollution is essential for addressing environmental and public health challenges and make the city better. The average NO2-values vary between 15-35 (µg/m³) and these are still acceptable levels. The correlation between traffic emissions and air quality can be seen.</p>
     
     <p>Even though the coronavirus disrupted the trends, it can be clearly seen that the green transition of traffic has reduced emission values. It is still important to monitor and analyze air quality and the factors affecting it in the future. This approach will not only enhance the city's air quality but also improve the overall quality of life for its residents. By prioritizing sustainable transportation and efficient traffic management, Helsinki can pave the way for a healthier, more sustainable urban environment.</p>
-    
+    <p></p>
     <h4>Datasources:</h4>
     <p>Air quality data is managed by HSY. The dataset includes the average NO2 values and the measurement point for the year in. Shapefiles were used for this study.</p>
     <p><a href="https://www.hsy.fi/en/environmental-information/open-data/avoin-data---sivut/air-quality-monitoring-sites-and-annual-nitrogen-dioxide-no2-averages-in-the-helsinki-metropolitan-area/">HSY Air Quality Data</a></p>
-    <h4>Datasources:</h4>
+   
     <p>HSY: https://www.hsy.fi/en/air-quality-and-climate/air-quality-in-different-environments/ </p>
     
     
@@ -175,6 +175,6 @@ in an urban environment, traffic is the most significant cause of air pollution 
     <p>The traffic dataset includes average traffic volumes each year in Helsinki. The traffic data is managed by Helsingin kaupunkiynpäristö and is downloaded in csv-format from:</p>
     <p><a href="https://www.avoindata.fi/data/en_GB/dataset/liikennemaarat-helsingissa/resource/a652b375-548a-4ebe-a396-18500595244f">Helsinki Traffic Data</a></p>
     
-    <p>The data is handled with Python 3.5 and these libraries for the maps and charts: pandas, geopandas, matplotlib, osmnx, pathlib, contextily, numpy, shapely, mapclassify, os, mpl_toolkits, folium, branca, seaborn, mpl_toolkits, pyproj.</p>
+    <h1>All the data is handled with Python 3.5 and these libraries for the maps and charts: pandas, geopandas, matplotlib, osmnx, pathlib, contextily, numpy, shapely, mapclassify, os, mpl_toolkits, folium, branca, seaborn, mpl_toolkits, pyproj.</h1>
 </body>    
 </html>
