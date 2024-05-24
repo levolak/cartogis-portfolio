@@ -27,16 +27,16 @@
         }
 
         .iframe-container iframe {
-            width: 100%; /* Set iframe width to fill container */
-            height: 400px; /* Set iframe height */
+            width: auto; /* Set iframe width to fill container */
+            height: 200px; /* Set iframe height */
             border: none; /* Remove iframe border */
         }
         
         .map-image {
             display: block;
-            width: 100%; /* Ensure the image fills its container */
+            width: auto; /* Ensure the image fills its container */
             height: auto; /* Maintain aspect ratio */
-            max-width: 300px; /* Set a maximum width */
+            max-width: 100%; /* Set a maximum width */
             max-height: 200px; /* Set a maximum height */
             margin-bottom: 20px;
         }
@@ -71,7 +71,7 @@
     
     <h2>NO2:</h2>
     <!-- Embedded YouTube Video -->
-    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=GVBeY1jSG9Y" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/GVBeY1jSG9Y?si=jR_lifNTAlhSQSE7" frameborder="0" allowfullscreen></iframe>
 
      <!-- Maps -->
     <h4>Change:</h4>
