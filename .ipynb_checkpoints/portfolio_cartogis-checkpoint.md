@@ -44,17 +44,17 @@
     
     
     <!-- Images -->
-    <h2>Population density of Helsinki:</h2>
+    <h6>Population density of Helsinki:</h6>
     <img src="population_density_helsinki.png" alt="Population Density Helsinki">
 
-    <h2>Where people aged 55-75 feel happy in Helsinki:</h2>
+    <h6>Where people aged 55-75 feel happy in Helsinki:</h6>
     <img src="MyMap_happypoints/happy_places_map.png" alt="Happy Places Map">
     
-    <h2>About the mobile internet latencies in Europe:</h2>
+    <h6>About the mobile internet latencies in Europe:</h6>
     <img src="MyMap_hexbin_map_europe.png" alt="Mobile Internet Latencies in Europe">
 
     <!-- Maps -->
-    <h2>And this is where the story begins...</h2>
+    <h6>And this is where the story begins...</h6>
     <div class="iframe-container">
         <iframe src="gridmap_no2_2015.png"></iframe>
     </div>
