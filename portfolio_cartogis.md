@@ -45,6 +45,13 @@
             display: flex; /* Use flexbox */
             flex-wrap: wrap; /* Wrap items to next line if necessary */
         }
+        
+        /* Adjust iframe size for interactive map */
+        .iframe-container.interactive iframe {
+            width: 200px; /* Set fixed width */
+            height: 200px; /* Set fixed height */
+        }
+
     </style>
 </head>
 <body>
@@ -79,7 +86,7 @@
     <!-- Embedded YouTube Video -->
     <iframe width="560" height="315" src="https://www.youtube.com/embed/GVBeY1jSG9Y?si=jR_lifNTAlhSQSE7" frameborder="0" allowfullscreen></iframe>
 
-    <h6>And this is where the story begins...</h6>
+ 
     <!-- Maps -->
     <h4>Change:</h4>
     <img src="gridmap_no2_2015.png" alt="Happy Places Map" class="map-image">
@@ -116,7 +123,6 @@
             <iframe src="map_2020.html"></iframe>
         </div>
     </div>
-    
     <h4>And next the changes between 2020 and 2023</h4>
     <!-- Flex container for iframes another set -->
     <div class="iframe-flex-container">
@@ -129,10 +135,14 @@
         </div>
     </div>
     
-    <h4>We can see the how covid-19 affected the amount of No2-values and traffic</h4>
+    <h4>We can see how the covid-19 affected the amount of No2-values and traffic</h4>
     <img src="no2_traffic_linechart.png"  class="map-image">
     
     <img src="combined_map_with_slider.html"  class="map-image">
+    
+    <div class="iframe-container interactive">
+            <iframe src="combined_map_with_slider.html"></iframe>
+        </div>
     
     
     
