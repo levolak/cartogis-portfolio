@@ -13,8 +13,9 @@
             padding: 20px;
         }
 
-        h1, h2 {
-            color: #ffffff; /* White text color for headings */
+        h1, h2, p {
+            margin-top: 0; /* Remove top margin */
+            margin-bottom: 10px; /* Add bottom margin */
         }
 
         .iframe-container {
@@ -24,8 +25,8 @@
         }
 
         .iframe-container iframe {
-            width: 400px; /* Adjust the width as needed */
-            height: 300px;
+            width: 100%; /* Set width to fill container */
+            height: 400px; /* Adjust the height as needed */
         }
 
         img {
@@ -39,42 +40,42 @@
 <body>
     <h1>Cartogis Portfolio</h1>
     
+    
+    <h1>toimiiko</h1>
+    
      <p>Here are some maps I created as part of my coursework.</p>
     
     
     
     <!-- Images -->
-    <h6>Population density of Helsinki:</h6>
+    <h3>Population density of Helsinki:</h3>
     <img src="population_density_helsinki.png" alt="Population Density Helsinki">
 
-    <h6>Where people aged 55-75 feel happy in Helsinki:</h6>
+    <h3>Where people aged 55-75 feel happy in Helsinki:</h3>
     <img src="MyMap_happypoints/happy_places_map.png" alt="Happy Places Map">
     
-    <h6>About the mobile internet latencies in Europe:</h6>
+    <h3>About the mobile internet latencies in Europe:</h3>
     <img src="MyMap_hexbin_map_europe.png" alt="Mobile Internet Latencies in Europe">
 
     <!-- Maps -->
     <h6>And this is where the story begins...</h6>
-    <div class="iframe-container">
-        <iframe src="gridmap_no2_2015.png"></iframe>
-    </div>
-    <div class="iframe-container">
-        <iframe src="gridmap_no2_2020.png"></iframe>
-    </div>
-    <div class="iframe-container">
-        <iframe src="gridmap_no2_2023.png"></iframe>
-    </div>
+
+    <h4>change:</h4>
+    <img src="gridmap_no2_2015.png" alt="Happy Places Map">
+    <img src="gridmap_no2_2020.png" alt="Happy Places Map">
+    <img src="gridmap_no2_2023.png" alt="Happy Places Map">
+    
 
     <h2>Let's now see some interactive maps...</h2>
     
     <div class="iframe-container">
-        <iframe src="map_2015.html" width="800" height="600"></iframe>
+        <iframe src="map_2015.html" width="1000" height="800"></iframe>
     </div>
     <div class="iframe-container">
-        <iframe src="map_2020.html" width="800" height="600"></iframe>
+        <iframe src="map_2020.html" width="1000" height="800"></iframe>
     </div>
     <div class="iframe-container">
-        <iframe src="map_2023.html" width="800" height="600"></iframe>
+        <iframe src="map_2023.html" width="1000" height="800"></iframe>
     </div>
 </body>
 </html>
