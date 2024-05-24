@@ -13,30 +13,13 @@
             padding: 20px;
         }
 
-        h1, h2, p {
+        h1, h2, h3, p {
             margin-top: 0; /* Remove top margin */
             margin-bottom: 10px; /* Add bottom margin */
         }
 
-        .iframe-container {
-            display: inline-block;
-            margin-right: 10px;
-            margin-bottom: 10px;
-        }
-
-        .iframe-container iframe {
-            width: 100%; /* Set width to fill container */
-            height: 400px; /* Adjust the height as needed */
-        }
-
-        img {
-            display: block;
-            max-width: 100%; /* Ensure images scale down to fit their container */
-            height: auto; /* Maintain aspect ratio */
-            margin-bottom: 20px;
-        }
-        
         .map-image {
+            display: block;
             max-width: 100%; /* Ensure the image scales down to fit its container */
             height: auto; /* Maintain aspect ratio */
             margin-bottom: 20px;
@@ -69,9 +52,12 @@
     <h6>And this is where the story begins...</h6>
 
     <h4>change:</h4>
-    <img src="gridmap_no2_2015.png" alt="Happy Places Map">
-    <img src="gridmap_no2_2020.png" alt="Happy Places Map">
-    <img src="gridmap_no2_2023.png" alt="Happy Places Map">
+    <img src="gridmap_no2_2015.png" alt="Happy Places Map" class="map-image">
+    <img src="gridmap_no2_2020.png" alt="Happy Places Map" class="map-image">
+    <img src="gridmap_no2_2023.png" alt="Happy Places Map" class="map-image">
+    
+    <img src="meanvalues_bar_linechart.png" alt="Happy Places Map" class="map-image">
+    <img src="trenfvalues_2015_2023.png" alt="Happy Places Map" class="map-image">
     
 
     <h2>Let's now see some interactive maps...</h2>
@@ -91,6 +77,9 @@
         <iframe src="map_2023.html"></iframe>
     </div>
     
+    <img src="traffic_amounts_bar_linechart.png" alt="Happy Places Map" class="map-image">
+    <img src="no2_traffic_linechart.png" alt="Happy Places Map" class="map-image">
+    <img src=".png" alt="Happy Places Map" class="map-image">
     
 </body>    
 </html>
