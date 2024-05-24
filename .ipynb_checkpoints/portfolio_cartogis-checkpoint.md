@@ -91,11 +91,14 @@
     <h1>Air quality data explore in Helsinki city</h1>
     
     <p>Air pollution, particularly from nitrogen dioxide (NO2), is a significant environmental and public health concern in urban areas like Helsinki. NO2 is primarily emitted from vehicles, industrial processes, and combustion of fossil fuels. Exposure to NO2 and other air pollutants can have detrimental effects on human health, including respiratory issues, cardiovascular diseases, and even premature death.</p>
+    
+    
+     <!-- Embedded YouTube Video -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/GVBeY1jSG9Y?si=jR_lifNTAlhSQSE7" frameborder="0" allowfullscreen></iframe>
      
     <p>Given the detrimental impact of air pollution on public health, it's crucial to monitor and analyze air quality data. By conducting such analyses and creating maps, policymakers, urban planners, and citizens can better understand the spatial and temporal distribution of air pollution within the city. This understanding can inform targeted interventions and policies aimed at reducing pollution levels, mitigating public health risks, and improving overall urban livability.</p>
     
-    <!-- Embedded YouTube Video -->
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/GVBeY1jSG9Y?si=jR_lifNTAlhSQSE7" frameborder="0" allowfullscreen></iframe>
+  
 
     <!-- Maps -->
     <h4>Change:</h4>
@@ -135,7 +138,7 @@
         <iframe src="slider_and_markers.html"></iframe>
     </div>
     
-    <h4>Let´s invite an other dataset to the party, and let´s see how's the traffic been changing during these years. 
+    <h4>Let´s invite an other dataset to the party, and see how is the traffic been changing in Helsinki during these years. 
 in an urban environment, traffic is the most significant cause of air pollution and thus degrades air quality the most. (lisää lähde hsy) The traffic values show yearly average amount of vehicles per hour. </h4>
     <img src="trendvalues_2015_2023.png" class="map-image">
     <img src="no2_traffic_linechart.png" class="map-image">
