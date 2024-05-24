@@ -20,8 +20,8 @@
 
         .map-image {
             display: block;
-            width: 700px; /* Set a fixed width */
-            height: ; /* Maintain aspect ratio */
+            width: 750px; /* Set a fixed width */
+            height: 700px; /* Maintain aspect ratio */
             max-width: 100%; /* Set a maximum width */
             margin-bottom: 20px;
         }
