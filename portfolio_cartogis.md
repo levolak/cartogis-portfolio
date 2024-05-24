@@ -48,8 +48,8 @@
         
         /* Adjust iframe size for interactive map */
         .iframe-container.interactive iframe {
-            width: 200px; /* Set fixed width */
-            height: 200px; /* Set fixed height */
+            width: 400px; /* Set fixed width */
+            height: 400px; /* Set fixed height */
         }
 
     </style>
@@ -81,7 +81,7 @@
        <p></p>
      
   <p>Given the detrimental impact of air pollution on public health, it's crucial to monitor and analyze air quality data. By conducting such analyses and creating maps, policymakers, urban planners, and citizens can better understand the spatial and temporal distribution of air pollution within the city. This understanding can inform targeted interventions and policies aimed at reducing pollution levels, mitigating public health risks, and improving overall urban livability.</p>
-    <p>And this is where the story begins...</p>
+    
     
     <!-- Embedded YouTube Video -->
     <iframe width="560" height="315" src="https://www.youtube.com/embed/GVBeY1jSG9Y?si=jR_lifNTAlhSQSE7" frameborder="0" allowfullscreen></iframe>
@@ -96,20 +96,8 @@
     <img src="meanvalues_bar_linechart.png" alt="Happy Places Map" class="map-image">
     <img src="trendvalues_2015_2023.png" alt="Happy Places Map" class="map-image">
     
-    <!-- next to each other-->
-    <div class="iframe-flex-container">
-        <!-- First set of maps -->
-        <div class="iframe-container">
-            <iframe src="gridmap_no2_2015.png"></iframe>
-        </div>
-        <div class="iframe-container">
-            <iframe src="gridmap_no2_2020.png"></iframe>
-        </div>
-    </div>
-    
-    
-    
-    
+
+   
     
     <h2>Let's now see some interactive maps...</h2>
     <h4>Let´s first see the changes between 2015 and 2020 (covid-19 year)</h4>
