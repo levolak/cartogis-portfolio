@@ -32,16 +32,15 @@
             border: none; /* Remove iframe border */
         }
         
-
-        
         .map-image {
             display: block;
             width: auto; /* Ensure the image fills its container */
-            height: 300px; /* Maintain aspect ratio */
+            height: 500px; /* Set a fixed height */
             max-width: 100%; /* Set a maximum width */
-            max-height: 100%; /* Set a maximum height */
             margin-bottom: 20px;
         }
+
+        
 
  
     </style>
