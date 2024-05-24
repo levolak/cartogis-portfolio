@@ -30,13 +30,18 @@
 
         img {
             display: block;
+            max-width: 100%; /* Ensure images scale down to fit their container */
+            height: auto; /* Maintain aspect ratio */
             margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
     <h1>Cartogis Portfolio</h1>
-    <h2>First, maps made during the course</h2>
+    
+     <p>Here are some maps I created as part of my coursework.</p>
+    
+    
     
     <!-- Images -->
     <h2>Population density of Helsinki:</h2>
@@ -63,14 +68,13 @@
     <h2>Let's now see some interactive maps...</h2>
     
     <div class="iframe-container">
-        <iframe src="map_2015.html" width="600" height="400"></iframe>
+        <iframe src="map_2015.html" width="800" height="600"></iframe>
     </div>
     <div class="iframe-container">
-        <iframe src="map_2020.html" width="600" height="400"></iframe>
+        <iframe src="map_2020.html" width="800" height="600"></iframe>
     </div>
     <div class="iframe-container">
-        <iframe src="map_2023.html" width="600" height="400"></iframe>
+        <iframe src="map_2023.html" width="800" height="600"></iframe>
     </div>
 </body>
 </html>
-
