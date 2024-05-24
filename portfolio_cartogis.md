@@ -50,7 +50,7 @@
         /* Iframe styles */
         .iframe-container iframe {
             width: 100%; /* Set iframe width to fill container */
-            height: 400px; /* Set iframe height */
+            height: 500px; /* Set iframe height */
             border: none; /* Remove iframe border */
         }
 
