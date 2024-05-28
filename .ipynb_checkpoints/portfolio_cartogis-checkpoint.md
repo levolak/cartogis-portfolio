@@ -112,7 +112,7 @@
     <p></p>
      
     <p>Taking the detrimental impact of air pollution on public health, it's crucial to monitor and analyze air quality data. By conducting such analyses and creating maps, policymakers, urban planners, and citizens can better understand the spatial and temporal distribution of air pollution within the city. This understanding can inform targeted interventions and policies aimed at reducing pollution levels, mitigating public health risks, and improving overall urban livability.</p>
-    <p>air quality limit values for nitrogen oxide are defined at eu level. The limit values define the highest permitted concentrations for air pollution, which, when exceeded, the authorities must take measures to lower the concentrations. An annual level of more than 40 µg/m3 is considered too high.</p>
+    <p>air quality limit values for nitrogen oxide are defined at EU-level. The limit values define the highest permitted concentrations for air pollution, which, when exceeded, the authorities must take measures to lower the concentrations. An annual level of more than 40 µg/m3 is considered too high (79/2017).</p>
     <p></p>
     
   
@@ -155,12 +155,10 @@
         <iframe src="slider_and_markers.html"></iframe>
     </div>
     
-    <h4>Let´s invite an other dataset to the party, and see how is the traffic been changing in Helsinki during these years. 
-in an urban environment, traffic is the most significant cause of air pollution and thus degrades air quality the most. (lisää lähde hsy) The traffic values show yearly average amount of vehicles per hour. </h4>
-    <img src="trendvalues_2015_2023.png" class="kuvaaja-map-image">
-    <img src="no2_traffic_linechart.png" class="kuvaaja-map-image">
+    <h4>Let´s invite an other dataset to the party, and see how is the traffic been changing in Helsinki during these years. According to HSY (Environmental services of the Helsinki region), the most significant cause of air pollution in an urban environment is traffic, and thus degrades air quality the most. The traffic values show yearly average amount of vehicles per hour. </h4>
+   
     
-    <h4>Traffic slider alle</h4>
+    
     <div class="iframe-container interactive">
         <iframe src="traffic_map_with_slider.html"></iframe>
     </div>
@@ -180,11 +178,16 @@ in an urban environment, traffic is the most significant cause of air pollution 
     
     <p>Even though the coronavirus disrupted the trends, it can be clearly seen that the green transition of traffic has reduced emission values. It is still important to monitor and analyze air quality and the factors affecting it in the future. This approach will not only enhance the city's air quality but also improve the overall quality of life for its residents. By prioritizing sustainable transportation and efficient traffic management, Helsinki can pave the way for a healthier, more sustainable urban environment.</p>
     <p></p>
+    
+    <h4>References:</h4>
+    <p>Finlex 26.1.2017/79: https://www.finlex.fi/fi/laki/ajantasa/2017/20170079</p>
+    <p>HSY: https://www.hsy.fi/en/air-quality-and-climate/air-quality-in-different-environments/</p>
+    
     <h4>Datasources:</h4>
     <p>Air quality data is managed by HSY. The dataset includes the average NO2 values and the measurement point for the year in. Shapefiles were used for this study.</p>
     <p><a href="https://www.hsy.fi/en/environmental-information/open-data/avoin-data---sivut/air-quality-monitoring-sites-and-annual-nitrogen-dioxide-no2-averages-in-the-helsinki-metropolitan-area/">HSY Air Quality Data</a></p>
    
-    <p>HSY: https://www.hsy.fi/en/air-quality-and-climate/air-quality-in-different-environments/ </p>
+    
     
     
     
