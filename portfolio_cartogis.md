@@ -112,6 +112,8 @@
     <p></p>
      
     <p>Taking the detrimental impact of air pollution on public health, it's crucial to monitor and analyze air quality data. By conducting such analyses and creating maps, policymakers, urban planners, and citizens can better understand the spatial and temporal distribution of air pollution within the city. This understanding can inform targeted interventions and policies aimed at reducing pollution levels, mitigating public health risks, and improving overall urban livability.</p>
+    <p>air quality limit values for nitrogen oxide are defined at eu level. The limit values define the highest permitted concentrations for air pollution, which, when exceeded, the authorities must take measures to lower the concentrations. An annual level of more than 40 µg/m3 is considered too high.</p>
+    <p></p>
     
   
 
@@ -189,6 +191,6 @@ in an urban environment, traffic is the most significant cause of air pollution 
     <p>The traffic dataset includes average traffic volumes each year in Helsinki. The traffic data is managed by Helsingin kaupunkiynpäristö and is downloaded in csv-format from:</p>
     <p><a href="https://www.avoindata.fi/data/en_GB/dataset/liikennemaarat-helsingissa/resource/a652b375-548a-4ebe-a396-18500595244f">Helsinki Traffic Data</a></p>
     
-    <h1>All the data is handled with Python 3.5 and these libraries for the maps and charts: pandas, geopandas, matplotlib, osmnx, pathlib, contextily, numpy, shapely, mapclassify, os, mpl_toolkits, folium, branca, seaborn, mpl_toolkits, pyproj.</h1>
+    <p>All the data is handled with Python 3.5 and these libraries for the maps and charts: pandas, geopandas, matplotlib, osmnx, pathlib, contextily, numpy, shapely, mapclassify, os, mpl_toolkits, folium, branca, seaborn, mpl_toolkits, pyproj.</p>
 </body>    
 </html>
