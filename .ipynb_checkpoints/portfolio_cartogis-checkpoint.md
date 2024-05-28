@@ -80,7 +80,7 @@
     
     <h3>In this page, you can see some maps made during the course, and the storytelling section about air quality in Helsinki, Finland.</h3>
     
-    <p>First, some maps I created as part of my coursework.</p>
+    <p>First, some maps I created as part of my coursework, and things I learned durin the course.</p>
 
     <!-- Images -->
     <h3>Population density of Helsinki:</h3>
@@ -98,6 +98,17 @@
         <iframe src="e4_squirrels.html"></iframe>
     </div>
     
+    <h4> What I learned during the course</h4>
+    
+    <p>During the first week, we dived into the history and evolution of mapmaking, exploring how maps have transitioned from simple navigational aids to complex tools for visualizing spatial data. It was interesting to learn the milestones in cartography and how the purposes of maps have evolved over time. One of the key points was understanding map projections and their crucial role in preserving spatial relationships. This week also provided a comprehensive overview of what makes a map effective and easy to read. Through practical exercises, I learned to create maps using Python libraries such as Pandas, GeoPandas, and Matplotlib. My projects involved creating a population density map of the Helsinki region using data from the Helsinki Region Infoshare website. The map's title for better emphasis and positioning the legend and source data thoughtfully were important steps in enhancing the map's readability and visual appeal. Despite some challenges in ensuring small population clusters were visible, I found that adding borders to the cells helped in making the map more informative and visually engaging.
+        
+In the second week, the focus shifted to color theory and its application in map design. I gained a deeper understanding of how colors can tell the information and evoke emotions. Learning about color contrasts and visual hierarchy was particularly enlightening, as these concepts are essential for creating clear and effective maps. I explored color functions in Python, which will undoubtedly be valuable in future projects. This week, I worked on a map visualizing where people aged 55-75 feel happy in Helsinki, using data from the ActiveAge dataset by Aalto's SoftGIS group. Including a basemap for context, I adjusted the visual hierarchy to ensure the data points stood out clearly. Experimenting with different visual elements, such as font sizes and edge colors, helped in refining the map's overall appearance.
+        
+The third week emphasized the importance of sketching map designs by hand, a basic yet often overlooked step that can save time and clarify ideas. I was reminded that maps and visualizations can evoke emotions and that it's okay to emphasize this aspect while remembering the ethical standards by presenting objective information. In this weeks, I dived into various non-cartographic visualization techniques, such as scatter plots and correlation matrices, which are effective for illustrating relationships between variables. These methods can be particularly useful when mapping complex data that might be difficult to represent on traditional maps. I learned that non-cartographic visualizations are valuable tools for condensing complex datasets into understandable formats, making it easier to identify trends and correlations. This understanding will be important in future projects, where choosing the right visualization method can significantly impact the clarity and effectiveness of the presented data.
+        
+In the final week, I gained comprehensive knowledge about interactive maps, their applications, and the tools available for creating them. Interactive maps are becoming increasingly important for engaging viewers and providing dynamic insights into spatial data. I learned about different export formats and their uses, which will be beneficial for sharing maps in various contexts. The concept of "smart cartography” was one thing i learned. I explored Python's Folium library for creating interactive maps with sliders, which allowed me to visualize changes over time effectively. This hands-on experience with interactive tools was valuable for understanding how to make maps more engaging and informative. Additionally, I learned about classification and intervals for data presentation, which are crucial for accurately representing data on maps. I gained new ideas for my portfolio and future projects. Overall, this course has been a nice and comprehensive journey in cartography, from traditional mapmaking techniques to modern, interactive visualizations, preparing me to tackle a wide range of mapping challenges.</p>
+
+    
    
     <!-- Maps -->
     <h6>And this is where the story begins...</h6>
@@ -114,11 +125,12 @@
     <p>Taking the detrimental impact of air pollution on public health, it's crucial to monitor and analyze air quality data. By conducting such analyses and creating maps, policymakers, urban planners, and citizens can better understand the spatial and temporal distribution of air pollution within the city. This understanding can inform targeted interventions and policies aimed at reducing pollution levels, mitigating public health risks, and improving overall urban livability.</p>
     <p>air quality limit values for nitrogen oxide are defined at EU-level. The limit values define the highest permitted concentrations for air pollution, which, when exceeded, the authorities must take measures to lower the concentrations. An annual level of more than 40 µg/m3 is considered too high (79/2017).</p>
     <p></p>
-    
+    <p>let's see how the air quality has changed in Helsinki since 2015</p>
+    <p></p>
   
 
     <!-- Maps -->
-    <h4>Change testi:</h4>
+  
     <img src="gridmap_no2_2015.png" alt="NO2 Levels 2015" class="map-image">
     <img src="gridmap_no2_2020.png" alt="NO2 Levels 2020" class="map-image">
     <img src="gridmap_no2_2023.png" alt="NO2 Levels 2023" class="map-image">
@@ -126,7 +138,7 @@
     <img src="meanvalues_bar_linechart.png" alt="Mean Values Bar Linechart" class="kuvaaja-map-image">
     <img src="trendvalues_2015_2023.png" alt="Trend Values 2015-2023" class="kuvaaja-map-image">
     
-    <h2>Let's now see some interactive maps...</h2>
+    <h2>And now some interactive maps...</h2>
     <h4>Let's first see the changes between 2015 and 2020 (COVID-19 year)</h4>
     <!-- Flex container for iframes -->
     <div class="iframe-flex-container">
@@ -138,7 +150,7 @@
             <iframe src="map_2020.html"></iframe>
         </div>
     </div>
-    <h4>And next the changes between 2020 and 2023</h4>
+    <h4>And the changes between 2020 and 2023</h4>
     <!-- Flex container for iframes another set -->
     <div class="iframe-flex-container">
         <!-- First set of maps -->
@@ -166,7 +178,7 @@
     <h4>We can see how these factors are correlating, and the effect of COVID-19</h4>
     <img src="no2_traffic_linechart.png" class="kuvaaja-map-image">
     
-    <h4>Scatterplot here</h4>
+    
     
     <h4>And finally, air quality and traffic together between 2015-2023</h4>
     <div class="iframe-container interactive">
