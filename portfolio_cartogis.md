@@ -39,7 +39,7 @@
         }
         
         .kuvaaja-map-image {
-            width: 1200px; /* Set a wider width */
+            width: 1000px; /* Set a wider width */
             height: 400px; /* Maintain aspect ratio */
             max-width: 100%; /* Set a maximum width */
             display: block;
