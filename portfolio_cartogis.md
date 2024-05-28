@@ -172,12 +172,14 @@ In the final week, I gained comprehensive knowledge about interactive maps, thei
    
     
     
-    <div class="iframe-container interactive">
-        <iframe src="traffic_map_with_slider.html"></iframe>
-    </div>
+
     
     <h4>We can see how these factors are correlating, and the effect of COVID-19</h4>
     <img src="no2_traffic_linechart.png" class="kuvaaja-map-image">
+    
+        <div class="iframe-container interactive">
+        <iframe src="traffic_map_with_slider.html"></iframe>
+    </div>
     
     
     
