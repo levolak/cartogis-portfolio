@@ -37,6 +37,14 @@
             display: block;
             margin-bottom: 20px;
         }
+        
+        .kuvaaja-map-image {
+            width: 1300px; /* Set a wider width */
+            height: 400px; /* Maintain aspect ratio */
+            max-width: 100%; /* Set a maximum width */
+            display: block;
+            margin-bottom: 20px;
+        }
 
 
 
@@ -84,6 +92,12 @@
     <h3>About the mobile internet latencies in Europe:</h3>
     <!-- Map of Europe -->
     <img src="hexbin_map_europe.png" alt="Mobile Internet Latencies in Europe" class="wide-map-image">
+    
+    <h4> Sightings of flying squirrels in Uusimaa between 2010-2023</h4>
+    <div class="iframe-container interactive">
+        <iframe src="e4_squirrels.html"></iframe>
+    </div>
+    
    
     <!-- Maps -->
     <h6>And this is where the story begins...</h6>
@@ -107,8 +121,8 @@
     <img src="gridmap_no2_2020.png" alt="NO2 Levels 2020" class="map-image">
     <img src="gridmap_no2_2023.png" alt="NO2 Levels 2023" class="map-image">
     
-    <img src="meanvalues_bar_linechart.png" alt="Mean Values Bar Linechart" class="wide-map-image">
-    <img src="trendvalues_2015_2023.png" alt="Trend Values 2015-2023" class="wide-map-image">
+    <img src="meanvalues_bar_linechart.png" alt="Mean Values Bar Linechart" class="kuvaaja-map-image">
+    <img src="trendvalues_2015_2023.png" alt="Trend Values 2015-2023" class="kuvaaja-map-image">
     
     <h2>Let's now see some interactive maps...</h2>
     <h4>Let's first see the changes between 2015 and 2020 (COVID-19 year)</h4>
@@ -141,8 +155,8 @@
     
     <h4>Let´s invite an other dataset to the party, and see how is the traffic been changing in Helsinki during these years. 
 in an urban environment, traffic is the most significant cause of air pollution and thus degrades air quality the most. (lisää lähde hsy) The traffic values show yearly average amount of vehicles per hour. </h4>
-    <img src="trendvalues_2015_2023.png" class="wide-map-image">
-    <img src="no2_traffic_linechart.png" class="wide-map-image">
+    <img src="trendvalues_2015_2023.png" class="kuvaaja-map-image">
+    <img src="no2_traffic_linechart.png" class="kuvaaja-map-image">
     
     <h4>Traffic slider alle</h4>
     <div class="iframe-container interactive">
@@ -150,7 +164,7 @@ in an urban environment, traffic is the most significant cause of air pollution 
     </div>
     
     <h4>We can see how these factors are correlating, and the effect of COVID-19</h4>
-    <img src="no2_traffic_linechart.png" class="wide-map-image">
+    <img src="no2_traffic_linechart.png" class="kuvaaja-map-image">
     
     <h4>Scatterplot here</h4>
     
