@@ -39,7 +39,7 @@
         }
         
         .kuvaaja-map-image {
-            width: 1300px; /* Set a wider width */
+            width: 1200px; /* Set a wider width */
             height: 400px; /* Maintain aspect ratio */
             max-width: 100%; /* Set a maximum width */
             display: block;
@@ -93,12 +93,12 @@
     <!-- Map of Europe -->
     <img src="hexbin_map_europe.png" alt="Mobile Internet Latencies in Europe" class="wide-map-image">
     
-    <h4> Sightings of flying squirrels in Uusimaa between 2010-2023</h4>
+    <h3> Sightings of flying squirrels in Uusimaa between 2010-2023</h3>
     <div class="iframe-container interactive">
         <iframe src="e4_squirrels.html"></iframe>
     </div>
     
-    <h4> What I learned during the course</h4>
+    <h3> What I learned during the course</h3>
     
     <p>During the first week, we dived into the history and evolution of mapmaking, exploring how maps have transitioned from simple navigational aids to complex tools for visualizing spatial data. It was interesting to learn the milestones in cartography and how the purposes of maps have evolved over time. One of the key points was understanding map projections and their crucial role in preserving spatial relationships. This week also provided a comprehensive overview of what makes a map effective and easy to read. Through practical exercises, I learned to create maps using Python libraries such as Pandas, GeoPandas, and Matplotlib. My projects involved creating a population density map of the Helsinki region using data from the Helsinki Region Infoshare website. The map's title for better emphasis and positioning the legend and source data thoughtfully were important steps in enhancing the map's readability and visual appeal. Despite some challenges in ensuring small population clusters were visible, I found that adding borders to the cells helped in making the map more informative and visually engaging.
     <p></p>  
